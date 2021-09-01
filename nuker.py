@@ -10,7 +10,7 @@ colorama.init()
 with open('config.json') as f:
     data = json.load(f)
     token = data["TOKEN"]
-    servername= data["SERVERNAME"]
+    servername= data[".nuked"]
 headers = {
  'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7.12) Gecko/20050915 Firefox/1.0.7',
  'Content-Type': 'application/json',
